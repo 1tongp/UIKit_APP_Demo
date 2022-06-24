@@ -5,6 +5,7 @@
 //  Created by Yitong Pei on 23/6/2022.
 //
 
+// due to the limited bundle identifier for apple development account, I have used the bundle of my previous test app [com.pitggy.TODO-LIST-APP]. But the bundle identifier of this project should be [com.pitggy.CollectionView2]
 
 import UIKit
 
