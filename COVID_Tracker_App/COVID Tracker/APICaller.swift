@@ -14,7 +14,7 @@ class APICaller{
     private init(){}
     
     private struct Constants{
-        static let addStateUrl = URL(string: "https://api.covidtracking.com/v2/us/daily.json")
+        static let allStatesUrl = URL(string: "https://api.covidtracking.com/v2/states.json")
     }
     
     enum DataScope{
@@ -26,8 +26,27 @@ class APICaller{
         
     }
     
-    public func getStateList(completion: @escaping(Result<[State], Error) -> Void){
+    public func getStateList(completion: @escaping(Result<[State], Error>) -> Void){
+        guard let url = Constants.allStatesUrl else{
+            return
+        }
         
+        let task = URLSession.shared.dataTask(with: url) { data, _, error in
+            guard let data = data, error == nil else{
+                return
+            }
+            
+            do {
+                let result = try JSONDecoder().decode(StateListResponse.self, from: data)
+                let states = result.data
+                completion(.success(states))
+            }
+            
+            catch{
+                completion(.failure(error))
+            }
+        }
+        task.resume()
     }
     
     
@@ -40,5 +59,6 @@ struct StateListResponse: Codable{
 }
 
 struct State: Codable{
-    let name: Stringlet state_code: String
+    let name: String
+    let state_code: String
 }
