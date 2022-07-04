@@ -7,6 +7,7 @@
 
 import UIKit
 import PencilKit
+import PhotosUI
 
 class ViewController: UIViewController, PKCanvasViewDelegate, PKToolPickerObserver{
 
@@ -23,7 +24,20 @@ class ViewController: UIViewController, PKCanvasViewDelegate, PKToolPickerObserv
     var drawing = PKDrawing()
     
     @IBAction func saveDrawingToCameraRoll(_sender: Any){
+        UIGraphicsBeginImageContextWithOptions(canvasView.bounds.size, false, UIScreen.main.scale)
         
+        canvasView.drawHierarchy(in: canvasView.bounds, afterScreenUpdates: true)
+        
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        if image != nil{
+            PHPhotoLibrary.shared().performChanges({
+                PHAssetChangeRequest.creationRequestForAsset(from: image!)
+            }, completionHandler: {success, error in
+                // deal with success or error 
+            })
+        }
     }
     
     override func viewDidLoad() {
@@ -48,12 +62,26 @@ class ViewController: UIViewController, PKCanvasViewDelegate, PKToolPickerObserv
         canvasView.maximumZoomScale = canvasScale
         canvasView.zoomScale = canvasScale
         
+        updateContentSizeForDrawing()
         canvasView.contentOffset = CGPoint(x: 0, y: -canvasView.adjustedContentInset.top)
     }
+    
     override var prefersHomeIndicatorAutoHidden: Bool{
         return true
     }
 
+    @IBAction func toogleFingerOrPencil(_ sender: Any){
+        
+        // in ios 14+ we use: canvasView.drawingPolicy = .anyInput for Finger, mouse cursor(iOS simulator) and Apple pencil's drawing
+        
+        canvasView.allowsFingerDrawing.toggle()
+        pencilFingerButton.title = canvasView.allowsFingerDrawing ? "Finger" : "Pencil"
+    }
+    
+    func canvasViewDrawingDidChange(_ canvasView: PKCanvasView) {
+        updateContentSizeForDrawing()
+    }
+    
     func updateContentSizeForDrawing(){
         let drawing = canvasView.drawing
         let contentHeight: CGFloat

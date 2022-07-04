@@ -33,10 +33,14 @@
                     <navigationItem key="navigationItem" id="eCK-HH-PvI">
                         <barButtonItem key="leftBarButtonItem" systemItem="camera" id="bcb-XA-ENE">
                             <connections>
-                                <action selector="saveDrawingToCameraRollWith_sender:" destination="BYZ-38-t0r" id="7Fb-L7-3Nr"/>
+                                <action selector="saveDrawingToCameraRollWith_sender:" destination="BYZ-38-t0r" id="taW-XF-bVO"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Pencil" id="oUs-hz-5qq"/>
+                        <barButtonItem key="rightBarButtonItem" title="Pencil" id="oUs-hz-5qq">
+                            <connections>
+                                <action selector="toogleFingerOrPencil:" destination="BYZ-38-t0r" id="1tq-hC-rEJ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="canvasView" destination="c8B-Qk-P59" id="1wN-ix-4Gf"/>
