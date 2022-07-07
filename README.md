@@ -29,6 +29,7 @@
     - [Instagram Demo App](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Instagram_Demo_App/Instagram%20Demo%20App)
        - note: this demo app is not finished yet 
 
-
-
-
+## Additional Resources
+1. Youtube Channels: 
+      - https://www.youtube.com/c/iOSAcademy
+      - https://www.youtube.com/c/Freecodecamp
