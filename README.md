@@ -1,14 +1,20 @@
 # UIKit_APP_Demo
 ## Swift - SwiftUI/UIKit Modules and Apps Demo
 ## 1. Fundations of Swift
+
     - [Fundations of Swift and SwiftUI](https://github.com/1tongp/UIKit_APP_Demo/tree/main/swift_prac) (Lectures)
+    
     - [Project Demo by SwiftUI](https://github.com/1tongp/UIKit_APP_Demo/tree/main/swift_prac/pracDemo)
 
 ## 2. Modules by UIKit 
+
     1. Side Menu 
+    
         - [Side Menu of App Example by UIKit](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Side_Menu/Side_Menu) 
             - note: this demo works, but still has some tiny errors
+            
     2. Scroll View Example 
+    
         - [Scroll View Example by UIKit](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Scroll%20View/ScrollViewTest)
         
     3. Collection View Examples by UIKit
