@@ -25,7 +25,7 @@
     - [Drawing Pad App by UIKit, PencilKit, PhotosUI](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Drawing_App/Drawing_APP)
     - [COVID Tracker App - Version of 2020 Data in the US](https://github.com/1tongp/UIKit_APP_Demo/tree/main/COVID_Tracker_App/COVID%20Tracker)
        - note: this demo app is not finished yet
-       
+       - API of 2020 Covid Data of the US: https://covidtracking.com/data/api/version-2
     - [Instagram Demo App](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Instagram_Demo_App/Instagram%20Demo%20App)
        - note: this demo app is not finished yet 
 
