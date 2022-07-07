@@ -1,20 +1,15 @@
 # UIKit_APP_Demo
 ## Swift - SwiftUI/UIKit Modules and Apps Demo
-## 1. Fundations of Swift
-
+1. Fundations of Swift
     - [Fundations of Swift and SwiftUI](https://github.com/1tongp/UIKit_APP_Demo/tree/main/swift_prac) (Lectures)
-    
     - [Project Demo by SwiftUI](https://github.com/1tongp/UIKit_APP_Demo/tree/main/swift_prac/pracDemo)
 
-## 2. Modules by UIKit 
-
+2. Modules by UIKit 
     1. Side Menu 
-    
         - [Side Menu of App Example by UIKit](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Side_Menu/Side_Menu) 
-            - note: this demo works, but still has some tiny errors
+            - note: this demo works, but still has some tiny errors 
             
     2. Scroll View Example 
-    
         - [Scroll View Example by UIKit](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Scroll%20View/ScrollViewTest)
         
     3. Collection View Examples by UIKit
@@ -24,7 +19,7 @@
         - [Example 3 - Header/Footer](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Collection%20View%203)
         - [Example 4 - IG Story Format of CircleView](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Collection%20View%204)
 
-## 3. Demo Apps 
+3. Demo Apps 
     - [To do list App by UIKit](https://github.com/1tongp/UIKit_APP_Demo/tree/main/TODO_List_App)
     - [Reminders App by UIKit](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Reminders_App)
     - [Drawing Pad App by UIKit, PencilKit, PhotosUI](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Drawing_App/Drawing_APP)
