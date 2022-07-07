@@ -20,4 +20,5 @@
 7. [Drawing Pad App by UIKit, PencilKit, PhotosUI](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Drawing_App/Drawing_APP)
 8. [Side Menu of App Example by UIKit](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Side_Menu/Side_Menu) 
    - note: this demo works, but still has some tiny errors
-9. [COVID Tracker App - Version of 2020 Data in the US] (https://github.com/1tongp/UIKit_APP_Demo/tree/main/COVID_Tracker_App/COVID%20Tracker)
+9. [COVID Tracker App - Version of 2020 Data in the US](https://github.com/1tongp/UIKit_APP_Demo/tree/main/COVID_Tracker_App/COVID%20Tracker)
+   - note: this demo app is not finished yet
