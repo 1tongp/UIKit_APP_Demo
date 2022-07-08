@@ -5,11 +5,11 @@
     - [Project Demo by SwiftUI](https://github.com/1tongp/UIKit_APP_Demo/tree/main/swift_prac/pracDemo)
 
 2. Modules by UIKit 
-    1. Side Menu 
+    1. Side Menu by UIkit
         - [Side Menu of App Example by UIKit](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Side_Menu/Side_Menu) 
             - note: this demo works, but still has some tiny errors 
             
-    2. Scroll View Example 
+    2. Scroll View Example by UIkit
         - [Scroll View Example by UIKit](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Scroll%20View/ScrollViewTest)
         
     3. Collection View Examples by UIKit
@@ -18,6 +18,8 @@
         - [Example 2 - CollectionView + TableView](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Collection%20View%202)
         - [Example 3 - Header/Footer](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Collection%20View%203)
         - [Example 4 - IG Story Format of CircleView](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Collection%20View%204)
+   4. Custom Cells of TableView by UIKit
+        -[https://github.com/1tongp/UIKit_APP_Demo/tree/main/Custom_TableView_Cell/Custom_TableView_Cell]
 
 3. Demo Apps 
     - [To do list App by UIKit](https://github.com/1tongp/UIKit_APP_Demo/tree/main/TODO_List_App)
