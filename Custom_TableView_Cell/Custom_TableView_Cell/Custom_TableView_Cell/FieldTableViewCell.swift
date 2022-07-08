@@ -23,6 +23,7 @@ class FieldTableViewCell: UITableViewCell, UITextFieldDelegate{
     }
 
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
         print("\(textField.text ?? "")")
         return true
     }
