@@ -18,7 +18,9 @@
         - [Example 2 - CollectionView + TableView](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Collection%20View%202)
         - [Example 3 - Header/Footer](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Collection%20View%203)
         - [Example 4 - IG Story Format of CircleView](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Collection%20View%204)
+        
    4. Custom Cells of TableView by UIKit
+        - [Example 1 - Multiple Custom Cells](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Multiple_Custom_Cells)
         - [Example 2 - 3 different types of Custom TableView Cells](https://github.com/1tongp/UIKit_APP_Demo/tree/main/Custom_TableView_Cell/Custom_TableView_Cell)
 
 3. Demo Apps 
